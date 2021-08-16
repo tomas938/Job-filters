@@ -1,0 +1,32 @@
+// FONTS //
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap");
+
+$font-primary: "Spartan", sans-serif;
+$font-medium: 500;
+$font-bold: 700;
+
+// COLORS //
+
+$dark-cyan: hsl(180, 29%, 50%);
+$light-cyan-bg: hsl(180, 52%, 96%);
+$light-cyan-filter: hsl(180, 31%, 95%);
+$dark-grayish-cyan: hsl(180, 8%, 52%);
+$very-dark-grayish-cyan: hsl(180, 14%, 20%);
+$white: #fff;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5rem;
+	@media only screen and (max-width: 360px) {
+		font-size: 1rem;
+	}
+	background-color: $light-cyan-bg;
+	font-family: $font-primary;
+	font-weight: $font-medium;
+}
