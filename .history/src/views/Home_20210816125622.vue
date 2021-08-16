@@ -22,7 +22,7 @@
 			</div>
 		</transition>
 	</header>
-	<transition-group name="list" tag="main" appear>
+	<transition-group name="list" tag="main" appear="">
 		<div v-for="card in filterData" :key="card.id" class="card">
 			<span v-if="card.new && card.featured"></span>
 			<div class="card-image">
